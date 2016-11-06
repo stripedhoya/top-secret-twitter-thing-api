@@ -1,8 +1,33 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+#main-container {
+    height: 100vh;
+    width: 100%;
+    background: #27bcc4; /* Old browsers */
+    background: -moz-linear-gradient(top, #27bcc4 0%, #e5da7b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #27bcc4 0%, #e5da7b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #27bcc4 0%, #e5da7b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#27bcc4', endColorstr='#e5da7b', GradientType=0); /* IE6-9 */
 }
 
-a {
-  color: #00B7FF;
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.panel {
+    background: #eee;
+    padding: 10px;
+    box-shadow: 0 2px 4px;
+    margin-bottom: 15px;
+}
+
+.header {
+
+    text-align: center;
+}
+
+header.header > h1 {
+    font-size: 3rem !important;
+    margin-bottom: 0;
 }

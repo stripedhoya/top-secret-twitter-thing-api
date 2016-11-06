@@ -1,5 +1,10 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+    section#main-container(ng-app='secretApp', ng-controller='alerter')
+        .row
+            header.panel.twelve.columns.header
+                h1 Secret Sizzle Alerter
+        .container
+            .row
+                .twelve.columns.panel(ng-repeat='(key, value) in alerts') {{ key }}: {{value.status}}
